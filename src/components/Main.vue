@@ -27,7 +27,7 @@
                 <div :style="{ width: data.progress }"></div>
               </div>
             </td>
-            <td v-for="topic in data.topics" :key="topic.id">
+            <td v-for="topic in data.topics" :key="topic">
               {{ topic }}
             </td>
           </tr>
